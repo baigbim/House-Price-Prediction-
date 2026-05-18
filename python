@@ -1,0 +1,47 @@
+# House Price Prediction 🏠
+
+## Project Overview
+A Machine Learning model that predicts house prices
+based on crime rate, rooms, location, and other 
+features using the Boston Housing Dataset.
+
+## Results 🎯
+| Model | R2 Score |
+|-------|----------|
+| Linear Regression | 0.67 |
+| Random Forest | 0.89 |
+
+**Winner: Random Forest — 89% accurate!** 🏆
+
+## Dataset 📊
+- **Source:** Boston Housing Dataset
+- **Total Houses:** 506
+- **Features:** 13
+- **Target:** House Price (medv)
+
+## Features Used 📋
+| Feature | Meaning |
+|---------|---------|
+| crim | Crime rate |
+| rm | Average rooms |
+| age | House age |
+| dis | Distance from office |
+| tax | Tax rate |
+| lstat | Low income population % |
+
+## What I did 📝
+- Loaded Boston Housing dataset
+- Explored and cleaned data
+- Trained Linear Regression model
+- Trained Random Forest model
+- Compared both models
+- Predicted new house price — $21.7k!
+- Analyzed feature importance
+
+## Technologies Used 🛠️
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+
+## How Random Forest Works 🌳
